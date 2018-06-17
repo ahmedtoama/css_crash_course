@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+* {
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: blue;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.box-1 {
+    margin: 10px 0;
+    background-color: #777;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid red;
+}
+.box-2 {
+    border: 1px solid #aaa;
+    padding: 10px;
+    margin: 10px 0;
+}
+.category {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 15px;
+}
+.category h3 {
+    text-align: center;
+}
+.category ul {
+    padding: 0;
+    list-style: none;
+}
+.category li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.category li:hover {
+    border-bottom: 1px solid blue;
+}
+.my-form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+.form-group {
+    padding-bottom: 15px;
+}
+.my-form label {
+    display: block;
+}
+.my-form input[type="text"],.my-form input[type="password"], .my-form textarea {
+    padding: 8px;
+    width: 100%;
+}
+.my-form input[type="submit"], .my-form input[type="reset"] {
+    background-color: #555;
+    color: yellow;
+    width: 49%;
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.contain {
+    margin-bottom: 30px;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    color: #fff;
+    border: 1px solid #aaa;
+    background-image: url('../img/img.jpg');
+    background-position:center center;
+    background-size: cover;
+}
+.contain h3 {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+.fix-me {
+    position: fixed;
+    top: 50%;
+    left: 0;
+}
+.button {
+    background-color: red;
+    color: #fff;
+    width: 60px;
+    height: 20px;;
+}
